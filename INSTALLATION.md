@@ -14,12 +14,15 @@ Fichier fourni : `xppen-pilot-pro-0.1.0.tgz`. C'est une **surface**, pas une con
 1. Ouvrir l'interface de Companion (le bouton « Launch GUI » de la fenêtre de Companion).
 2. Aller dans **Modules**.
 3. Cliquer sur **Import module package**, puis choisir `xppen-pilot-pro-0.1.0.tgz`.
+   Attention, il y a deux boutons côte à côte : **Import offline module bundle** est fait pour autre chose et
+   répond « No modules found in bundle ».
 4. **XPPen Pilot Pro** apparaît dans la liste, en version 0.1.0.
 
 ## 2. Brancher la console
 
 1. Brancher la Pilot Pro en **USB sur le PC où tourne Companion**.
-2. Aller dans **Surfaces** : la **XPPen Pilot Pro** apparaît. Il n'y a pas de connexion à créer.
+2. Aller dans **Surfaces** : la **XPPen Pilot Pro** apparaît. Il n'y a pas de connexion à créer, et la console
+   ne figure donc pas dans **Connections**. Si elle n'apparaît pas, cliquer sur **Rescan USB**.
 3. Agrandir la page Companion à **cinq lignes** : la console en utilise cinq, et la dernière resterait hors d'atteinte
    avec les quatre lignes par défaut.
 
