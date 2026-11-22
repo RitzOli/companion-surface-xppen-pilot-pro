@@ -87,10 +87,19 @@ molette :
 
 Les poussées réelles atteignent toutes 500-534 (soit un axe à fond, ±511) ; le
 parasite plafonne à 250. Une zone morte à **300** sépare les deux populations
-sans recouvrement. Le sens inverse — le stick faisant tourner la molette — n'a
-pas été observé : les crans concernés surviennent à faible amplitude, pendant
-des déflexions de 25 à 250 ms, ce qui est la signature du parasite et non d'une
-poussée.
+sans recouvrement.
+
+Ce tableau vient d'une première capture. La capture complète du dépôt
+(`capture.jsonl`, 21,7 min, 150 déflexions, 265 crans de zoom) confirme la zone
+morte : les 7 déflexions faibles accompagnées d'un cran de zoom plafonnent à 235,
+et aucune des 18 déflexions entre 250 et 449 n'en porte.
+
+Elle montre aussi le sens inverse, plus rare : **11 poussées franches sur 86**
+(450 et plus) contiennent un cran de zoom, toujours un seul, isolé, dont 7 au
+moment où le stick est à fond. Une molette tournée exprès donne une rafale de
+crans, pas un cran seul : c'est donc bien le stick qui entraîne la molette,
+environ une poussée sur huit. D'où l'option « Bloquer le zoom » du plugin, qui
+ignore la molette zoom tant que le joystick est poussé.
 
 Les molettes `0x02` et `0x04` ne présentent aucune diaphonie.
 

@@ -99,9 +99,9 @@ défiler une timeline.
 **Temps mort** — après un relâchement, retarde la direction suivante, pour ne
 pas compter les rebonds du ressort de rappel.
 
-**Bloquer le zoom** — pousser le joystick peut aussi faire tourner la molette
-zoom de quelques crans. Coché, ces crans sont ignorés tant que le joystick est
-poussé. À laisser coché, sauf besoin particulier.
+**Bloquer le zoom** — pousser le joystick entraîne parfois la molette zoom d'un
+cran, environ une poussée sur huit. Coché, la molette zoom est ignorée tant que
+le joystick est poussé. À laisser coché, sauf besoin particulier.
 
 ### Boutons maintenus
 
