@@ -1,0 +1,9 @@
+node_modules/
+pkg/
+*.tgz
+*.avant-*
+.claude/
+.tmp.driveupload/
+*.diff
+*.log
+!xppen-pilot-pro-*.tgz

@@ -1,0 +1,91 @@
+[
+	{
+		"sig": "t3/b5.0",
+		"name": "left-1",
+		"count": 41
+	},
+	{
+		"sig": "t3/b5.1",
+		"name": "left-2",
+		"count": 12
+	},
+	{
+		"sig": "t3/b5.2",
+		"name": "left-3",
+		"count": 19
+	},
+	{
+		"sig": "t3/b5.3",
+		"name": "left-4",
+		"count": 29
+	},
+	{
+		"sig": "t3/b5.4",
+		"name": "right-1",
+		"count": 13
+	},
+	{
+		"sig": "t3/b5.5",
+		"name": "right-2",
+		"count": 6
+	},
+	{
+		"sig": "t3/b5.6",
+		"name": "right-3",
+		"count": 13
+	},
+	{
+		"sig": "t3/b5.7",
+		"name": "right-4",
+		"count": 19
+	},
+	{
+		"sig": "t3/b6.0",
+		"name": "cross-left",
+		"count": 3
+	},
+	{
+		"sig": "t3/b6.1",
+		"name": "cross-up",
+		"count": 6
+	},
+	{
+		"sig": "t3/b6.2",
+		"name": "cross-right",
+		"count": 5
+	},
+	{
+		"sig": "t3/b6.3",
+		"name": "cross-down",
+		"count": 11
+	},
+	{
+		"sig": "t3/b4.4",
+		"name": "top-button",
+		"count": 15
+	},
+	{
+		"sig": "t2/molette=0x04 sens=0x01",
+		"name": "moletteesterieure",
+		"hex": "02f302010401000000000000",
+		"count": 117
+	},
+	{
+		"sig": "t2/molette=0x01 sens=0x02",
+		"name": "molettezoom",
+		"hex": "02f302020101000000000000",
+		"count": 68
+	},
+	{
+		"sig": "t2/molette=0x04 sens=0x02",
+		"name": "moletteexterieure-moins",
+		"hex": "02f302020401000000000000",
+		"count": 101
+	},
+	{
+		"sig": "t2/molette=0x01 sens=0x01",
+		"name": "molettezoomplus",
+		"hex": "02f302010101000000000000",
+		"count": 63
+	}
+]

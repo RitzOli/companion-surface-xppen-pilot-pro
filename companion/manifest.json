@@ -1,0 +1,22 @@
+{
+	"$schema": "../node_modules/@companion-surface/base/assets/manifest.schema.json",
+	"type": "surface",
+	"id": "xppen-pilot-pro",
+	"name": "XPPen Pilot Pro",
+	"shortname": "pilot-pro",
+	"description": "Console d'édition XPPen Pilot Pro utilisée comme surface Companion : 13 boutons, 3 molettes dont une cliquable, joystick analogique, combos et double-clics. Protocole HID non documenté par XPPen, retrouvé par observation : voir PROTOCOL.md.",
+	"version": "0.1.0",
+	"license": "MIT",
+	"repository": "https://github.com/RitzOli/companion-surface-xppen-pilot-pro",
+	"bugs": "https://github.com/RitzOli/companion-surface-xppen-pilot-pro/issues",
+	"maintainers": [{ "name": "RitzOli", "email": "RitzOli@users.noreply.github.com" }],
+	"runtime": {
+		"type": "node22",
+		"api": "nodejs-ipc",
+		"apiVersion": "1.2.1",
+		"entrypoint": "../src/index.js"
+	},
+	"keywords": ["xppen", "xp-pen", "xp-pen pilot pro", "pilot pro", "hanvon", "ugee", "joystick", "console", "editing", "hid"],
+	"products": ["XPPen Pilot Pro"],
+	"usbIds": [{ "vendorId": 10429, "productIds": [515] }]
+}
